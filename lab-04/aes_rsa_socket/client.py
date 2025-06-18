@@ -7,7 +7,7 @@ import threading
 import hashlib
 # Initialize client socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('localhost', 1651))
+client_socket.connect(('localhost', 2460))
 
 # Generate RSA key pair
 client_key = RSA.generate(2048)
